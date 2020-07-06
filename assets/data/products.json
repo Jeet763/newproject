@@ -1,0 +1,52 @@
+{
+    "products": [
+      {
+        "id": "001",
+        "qty":1,
+        "name": "Windshield",
+        "price":500,
+        "image": "../assets/images/wind1.png",
+        "description": " windshields are generally made of laminated safety glass, a type of treated glass, which consists of, typically, two curved sheets of glass with a plastic layer laminated between them for safety, and bonded into the window frame."
+      },
+      {
+        "id": "002",
+        "qty":1,
+        "name": "Hydraulic Brakes",
+        "price":100,
+        "image": "../assets/images/product-2-1.jpeg",
+        "description": "A hydraulic brake is an arrangement of braking mechanism which uses brake fluid, typically containing glycol ethers or diethylene glycol, to transfer pressure from the controlling mechanism to the braking mechanism. "
+      },
+      {
+        "id": "003",
+        "qty":1,
+        "name": "Engine",
+        "price":1000,
+        "image": "../assets/images/engine21.png",
+        "description": "An engine or motor is a machine designed to convert one form of energy into mechanical energy. Heat engines, like the internal combustion engine, burn a fuel to create heat which is then used to do work."
+      },
+      {
+        "id": "004",
+        "qty":1,
+        "name": "Tyres",
+        "price":200,
+        "image": "../assets/images/tyres2.png",
+        "description": "205 indicates the section width of a tyre in millimetres. 60 is a tyre's aspect ratio or profile which is its height from the base of the tread to the rim. This number represents a percentage of the tread width. ... 91 is a code which indicates the maximum load capacity of the tyre."
+      },
+      {
+        "id": "005",
+        "qty":1,
+        "name": "Speedometer",
+        "price":50,
+        "image": "../assets/images/speed1.png",
+        "description": "A speedometer or a speed meter is a gauge that measures and displays the instantaneous speed of a vehicle. Now universally fitted to motor vehicles, they started to be available as options in the 1900s, and as standard equipment from about 1910 onwards."
+      },
+      {
+        "id": "006",
+        "qty":1,
+        "name": "Fuel gauge",
+        "price":80,
+        "image": "../assets/images/gauge32.png",
+        "description": "In automobile and aircraft engineering a fuel gauge or gas gauge is an instrument used to indicate the amount of fuel in a fuel tank."
+      }
+    ]
+  }
