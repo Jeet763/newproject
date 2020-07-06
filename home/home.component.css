@@ -1,0 +1,75 @@
+body{margin-top: 50px; margin-bottom: 100px;}
+
+  /* equal card height */
+  .row-equal > div[class*='col-'] {
+  display: flex;
+  flex: 1 0 auto;
+  }
+  
+  .row-equal .card {
+  width: 100%;
+  }
+  
+  /* ensure equal card height inside carousel */
+  .carousel-inner>.row-equal.active, 
+  .carousel-inner>.row-equal.next, 
+  .carousel-inner>.row-equal.prev {
+  display: flex;
+  }
+  
+  /* prevent flicker during transition */
+  .carousel-inner>.row-equal.active.left, 
+  .carousel-inner>.row-equal.active.right {
+  opacity: 0.5;
+  display: flex;
+  }
+  
+  
+  /* control image height */
+  .card-img-top-250 {
+  max-height: 250px;
+  overflow:hidden;
+  }
+  
+  
+  .card-header{color:rgb(139, 255, 30)}
+  .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: "Sofia";
+  }
+  
+  .price {
+  color: rgba(22, 21, 21, 0.589);
+  font-size: 22px;
+  font-family: "Sofia";
+  }
+  
+  .card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  font-family: sofia;
+  }
+  
+  .card button:hover {
+  opacity: 1.0;
+  }
+  #brandname{
+    font-size:50px;
+    color:rgb(4, 17, 22);
+    text-align:center;
+    padding:50;
+   
+  }
+  #navbrand{
+    margin-left: 50px;
+  }
